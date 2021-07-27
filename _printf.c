@@ -7,7 +7,7 @@
  */
 int _printf(const char *format, ...)
 {
-	struct_fmt st_fmt_arr[] = { 
+	struct_fmt st_fmt_arr[] = {
 		{"c", f_char},
 		{"s", f_str},
 		{"d", f_digit},
@@ -25,6 +25,7 @@ int _printf(const char *format, ...)
 	};
 	va_list arglist;
 	int printNum;
+
 	printNum = 0;
 	va_start(arglist, format);
 	printNum = compare_f(format, arglist, st_fmt_arr);
