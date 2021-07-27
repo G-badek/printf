@@ -3,6 +3,7 @@
 /**
  * _printf - prints any format of input
  * @format: type of character in string format
+ * @...: list of variadic arguments
  * Return: number of characters that are printed
  */
 int _printf(const char *format, ...)
