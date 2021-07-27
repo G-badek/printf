@@ -20,7 +20,7 @@ int _putchar(char c);
 int f_str(va_list);
 int f_char(va_list);
 int f_percent(va_list);
-int compare_f(const char *, va_list, st_fmt st_format[]);
+int compare_f(const char *, va_list, struct_fmt st_format[]);
 int f_digit(va_list);
 int f_bin_conv(va_list);
 int f_oct_conv(va_list);
